@@ -24,7 +24,7 @@
     align-items: center;
 }
     .menu ul li:hover {
-        background-color: blueviolet;
+        background-color: rgba(128, 128, 128, 0.301);
     }
 
 .menu div {
@@ -32,9 +32,30 @@
     height: 20px;
     border-radius: 50%;
     background-color: black;
-    margin-right: 0.6em;
+    transition: transform 200ms;
 }
-    
+    #violencias {
+        background-color: #8C52FF;
+    }
+        #fake {
+            background-color: gold;
+        }
+            #ambiente {
+                background-color: #009383;
+            }
+                #esi {
+                    background-color: #FF914C;
+                }
+                    #diversidad {
+                        background-color: rgb(205, 66, 39);
+                    }
+                        #violencias,
+                        #fake,
+                        #ambiente,
+                        #esi,
+                        #diversidad {
+                            position: absolute;
+                        }
 .menu a {
     text-decoration: none;
     margin: 0.5em;
@@ -44,7 +65,16 @@
 
 .menu p {
     color: black;
+    font-size: 1.2em;
+    transition: transform 200ms;
+    margin-left: 1.5em;
 }
+    .menu p:hover {
+        transform: scale(1.1);
+    }
+        .menu p:hover ~ div {
+            transform: scale(1.2);
+        }
 
 .title {
     margin: auto;
