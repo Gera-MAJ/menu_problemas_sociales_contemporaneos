@@ -65,7 +65,7 @@
     color: black;
     font-size: 1.2em;
     transition: transform 200ms;
-    margin-left: 1.25em;
+    margin-left: 1.3em;
 }
     .menu p:hover {
         transform: scale(1.1);
@@ -82,4 +82,17 @@
     margin: auto;
     margin-top: 1.5em;
     margin-bottom: 1em;
+}
+
+@media screen and (max-width: 750px){
+   
+    .menu ul li {
+        width: 20rem;
+    }
+    .menu {
+        margin: 0px 0px 0px 1.2em;
+    }
+    .title {
+        margin: 10px 0px 10px 1.2em;
+    }
 }
