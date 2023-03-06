@@ -16,7 +16,7 @@
 
 .menu ul li{
     list-style: none;
-    margin: 1rem;
+    
 }
     .menu ul li:hover {
         background-color: blueviolet;
