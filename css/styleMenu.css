@@ -6,16 +6,22 @@
 .conteiner {
     max-width: 1000px;
     min-width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .menu {
-    background-color: brown;
-    width: 50%;
+    /* background-color: brown; */
+    width: 40%;
     margin: auto;
 }
 
 .menu ul li{
     list-style: none;
+    height: 2em;
+    display: flex;
+    align-items: center;
 }
     .menu ul li:hover {
         background-color: blueviolet;
@@ -38,4 +44,10 @@
 
 .menu p {
     color: black;
+}
+
+.title {
+    margin: auto;
+    margin-top: 1.5em;
+    margin-bottom: 1em;
 }
