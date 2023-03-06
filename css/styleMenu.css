@@ -19,12 +19,12 @@
 
 .menu ul li{
     list-style: none;
-    height: 2.4em;
+    height: 2.5em;
     display: flex;
     align-items: center;
 }
     .menu ul li:hover {
-        background-color: rgba(128, 128, 128, 0.301);
+        /* background-color: rgba(128, 128, 128, 0.301); */
     }
 
 .menu div {
@@ -61,6 +61,7 @@
     margin: 0.5em;
     display: flex;
     align-items: center;
+    transition: all 200ms;
 }
 
 .menu p {
@@ -71,7 +72,8 @@
 }
     .menu p:hover {
         transform: scale(1.1);
-        transform: translateX(0.5em);    
+        transform: translateX(0.5em);
+        font-weight: bold;   
     }
         .menu p:hover ~ div {
             transform: scale(1.2);
