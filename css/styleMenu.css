@@ -3,10 +3,30 @@
     margin: 0px;
 }
 
+.conteiner {
+    max-width: 1000px;
+    min-width: 350px;
+}
+
+.menu {
+    background-color: brown;
+    width: 50%;
+    margin: auto;
+}
+
 .menu ul li{
     list-style: none;
+    margin: 1rem;
 }
+    .menu ul li:hover {
+        background-color: blueviolet;
+    }
 
 .menu a {
     text-decoration: none;
+    margin: 0.5em;
+}
+
+.menu p {
+    color: black;
 }
