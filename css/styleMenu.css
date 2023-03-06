@@ -16,15 +16,24 @@
 
 .menu ul li{
     list-style: none;
-    
 }
     .menu ul li:hover {
         background-color: blueviolet;
     }
 
+.menu div {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: black;
+    margin-right: 0.6em;
+}
+    
 .menu a {
     text-decoration: none;
     margin: 0.5em;
+    display: flex;
+    align-items: center;
 }
 
 .menu p {
